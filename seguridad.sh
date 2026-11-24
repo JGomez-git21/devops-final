@@ -3,7 +3,7 @@ set -euo pipefail
 
 mkdir -p reportes
 
-IMAGE_NAME="${IMAGE_NAME:-estudiante10-api:local}"
+IMAGE_NAME="${IMAGE_NAME:-estudiante10-api:latest}"
 API_HEALTH_URL="${API_HEALTH_URL:-http://localhost:8010/health}"
 CONTAINERS=("est10_db" "est10_api")
 
